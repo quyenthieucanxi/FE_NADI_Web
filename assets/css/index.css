@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-header1 {
+    background-image: linear-gradient(to right,#03a4f4,#20e0af);
+    width: 100%;
+}
+.container-header2 {
+    width: 100%;
+}
+.img-language {
+    width: 36px;
+    height: 100%;
+    padding : 10px 6px;
+}
+
+.language {
+    margin: 0  5px;
+    display: inline-block;
+    color: #fff;
+    height: 100%;
+    font-size: 16px;
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+.menu {
+    border: 1px solid rgba(129,129,129,.2);
+    list-style-type: none;
+}
+.menu-item {
+    font-weight: 600;
+    border: 0.5px solid rgba(129,129,129,.2);
+    padding : 12px 18px;
+    font-size: 14px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    width: 1440px;
+    height: 552px;
+}
+.card-banner {
+    
+    
+    border-radius: 24px;
+    position: relative;
+    padding: 0 8px;
+    &:hover {
+        cursor: pointer;
+    }
+    
+}
+.banner {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &:hover img {
+        transform: scale(1.2); /* Tăng kích thước ảnh khi hover */
+    }
+}
+.banner img {
+    transition: transform 0.3s ease;
+}
+
+.content-banner {
+    color: #000;
+}
+.banner-1 {
+    top: 20%;
+    right: 14px;
+    text-align: right;
+    position: absolute;
+    padding : 16px 24px;
+}
+.banner-2 {
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.banner-3 {
+    top: 20%;
+    left: 14px;
+    text-align: left;
+    position: absolute;
+    padding : 16px 24px;
+}
+.banner-title {
+    color: #06abec;
+}
+.title-subtitle {
+    color: aqua ;
+}
+.title-subtitle-large {
+    color: #000;
+    font-size: 36px;
+    font-weight: 1200;
+    margin-top: 8px;
+    line-height: 1.3;
+}
+.info {
+    text-align: center;
+
+}
+.box-img {
+    display: flex;
+    justify-content: center;
+}
+.box-info {
+    text-align: center;
+    padding: 8px 16px;
+}
+.box-info-inner {
+    color: gray;
+    line-height: 2;
+    font-size: 18px;
+}
+.info-company {
+    background-color: #831b1b;
+    width: 100%;
+}
+.img-clothes {
+    width: 285px;
+}
+
+.clothes {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    &:hover img{
+        transform: scale(1.2);
+    }
+}
+.clothes img {
+    transition: transform 0.3s ease;
+}
+.info-clothes {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slick-prev::before, .slick-next::before {
+    font-size: 24px !important;
+}
+
+.content {
+    text-align: center;
+    padding: 16px 8px;
+    line-height: 2;
+}
+.content h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.content p{
+    color: gray;
+    font-size: 18px;
+}
